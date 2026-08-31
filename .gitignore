@@ -21,7 +21,9 @@ data_raw/
 *.zip
 archive*/
 artifacts/
-Manual_*.pdf
+
+# Keep PDFs in the repository; ignore archive ZIP files only
+# Example: archive7.zip, archive8.zip, archive9.zip will stay out of GitHub
 
 # Optional local generated outputs
 *.log

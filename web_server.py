@@ -36,6 +36,11 @@ def should_accept_prediction(emotion, confidence):
 
 
 @app.get("/")
+def index():
+    return send_from_directory(ROOT / "web", "camera.html")
+
+
+@app.get("/dashboard")
 def dashboard():
     return send_from_directory(ROOT / "web", "dashboard.html")
 

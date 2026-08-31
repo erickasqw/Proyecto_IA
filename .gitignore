@@ -1,32 +1,8 @@
-# Python virtual environment
-.venv/
-venv/
-env/
-
-# Python bytecode
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# VS Code
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Large input datasets / archives
-data_raw/
+# Keep all project files in the repository except local ZIP backup archives
+# The user requirement is to upload everything except the ZIP archive files.
 *.zip
-archive*/
-artifacts/
-
-# Keep PDFs in the repository; ignore archive ZIP files only
-# Example: archive7.zip, archive8.zip, archive9.zip will stay out of GitHub
-
-# Optional local generated outputs
-*.log
+*.7z
+*.rar
 
 # Keep model artifacts tracked if desired
 # Uncomment if you do NOT want to upload model files

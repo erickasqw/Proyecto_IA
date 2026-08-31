@@ -1,9 +1,7 @@
-# Keep all project files in the repository except local ZIP backup archives
-# The user requirement is to upload everything except the ZIP archive files.
-*.zip
-*.7z
-*.rar
+# Only exclude the specific backup ZIP files that should not be uploaded
+archive (7).zip
+archive (8).zip
+archive (9).zip
 
-# Keep model artifacts tracked if desired
-# Uncomment if you do NOT want to upload model files
-# artifacts/
+# Keep all other project files tracked normally
+# This allows the project code, datasets, PDFs, and local assets to be included.

@@ -1,0 +1,10 @@
+flask
+opencv-python==4.10.0.84
+numpy
+torch==2.13.0+cu126
+torchvision==0.28.0+cu126
+tensorflow
+scikit-learn
+matplotlib
+seaborn
+pillow
